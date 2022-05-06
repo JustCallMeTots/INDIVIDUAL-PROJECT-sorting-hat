@@ -8,6 +8,7 @@ body {
     border: groove goldenrod 40px ;
     color: darkblue;
     height: 666px;
+    font-family: fantasy;
 }
 .card-body1 {
     display: flex;
@@ -28,3 +29,8 @@ h1 {
     display: flex;
     flex-flow: row wrap ;
 }
+/* #grad1 {
+    height: 200px;
+    background-color: white;
+    background-image: linear-gradient(darkblue, darkred);
+} */
