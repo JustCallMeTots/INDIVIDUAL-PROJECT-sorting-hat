@@ -17,6 +17,9 @@ body {
 }
 #sortingBtn {
     background-color: black;
+    background-image: url(Ilvermorny_Crest_4.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
     color: darkred;
     display: flex;
     justify-content: center;
