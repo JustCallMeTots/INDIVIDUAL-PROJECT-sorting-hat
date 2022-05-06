@@ -3,8 +3,10 @@ body {
 }
 .card1 {
     background-color: darkred;
-    border: dotted goldenrod 20px ;
-    color: aliceblue;
+    background-image: url(Ilvermorny_Crest_4.webp);
+    background-repeat: no-repeat;
+    border: groove goldenrod 40px ;
+    color: darkblue;
     height: 666px;
 }
 .card-body1 {
