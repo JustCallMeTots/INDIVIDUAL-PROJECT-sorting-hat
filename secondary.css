@@ -2,11 +2,12 @@ body {
     background-color: goldenrod
 }
 .card {
-    background-color: aqua;
+    background-color: darkblue;
+    color: antiquewhite;
     padding: 10px;
-    border: dashed black 10px;
+    border: groove darkred 10px;
     display: flex;
-    flex-flow: row-reverse wrap ;
+    flex-flow: row-reverse wrap;
     margin: 20px;
 }
 #studentList {
@@ -21,4 +22,44 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+.card3 {
+    background-color: black;
+    background-image: url(GormlaithGaunt.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: red;
+    padding: 10px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    margin: 20px;
+}
+#followersGormlaith {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#filterBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+.btn{
+    margin: 10px;
+}
+#studentTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: darkblue;
+    color: antiquewhite;
+    border: groove darkred 20px;
+}
+#evilTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: darkred;
+    color: white;
 }
